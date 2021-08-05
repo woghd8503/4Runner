@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Test.cs" />
+    <Compile Include="Assets\csFireCube.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
