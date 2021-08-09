@@ -1,5 +1,11 @@
 sceneSetups:
-- path: Assets/James/01.Scenes/Map_v1.unity
+<<<<<<< HEAD
+- path: Assets/KimDoHyeong/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
+=======
+- path: Assets/Scenes/SampleScene.unity
+  isLoaded: 0
+  isActive: 0
+>>>>>>> DH
   isSubScene: 0
