@@ -53,28 +53,41 @@
     <UnityVersion>2020.3.13f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Scripts\randomParticleRotation.cs" />
     <Compile Include="Assets\James\02.Scripts\csColiisionCheck.cs" />
     <Compile Include="Assets\csFireCube.cs" />
     <Compile Include="Assets\Test.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
-    <Compile Include="Assets\Scenes\rotate.cs" />
+    <Compile Include="Assets\rotate.cs" />
     <Compile Include="Assets\James\02.Scripts\csInstantiatePaticle.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\KimDoHyeong\Scripts\csBullet.cs" />
+    <Compile Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Scripts\rotation.cs" />
+    <Compile Include="Assets\James\02.Scripts\csKinematicCheck.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\James\02.Scripts\csTriggerCheck.cs" />
     <Compile Include="Assets\James\02.Scripts\csRaycast.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\KimDoHyeong\Scripts\csTrigger.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\KimDoHyeong\Scripts\csParticle.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Scripts\ReverseNormals.cs" />
+    <Compile Include="Assets\KimDoHyeong\Scripts\csCameraMove.cs" />
     <Compile Include="Assets\James\02.Scripts\csLaser.cs" />
     <Compile Include="Assets\James\06.Res\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\James\02.Scripts\csKinematicCheck.cs" />
+    <Compile Include="Assets\KimDoHyeong\Scripts\csRacast.cs" />
+    <Compile Include="Assets\KimDoHyeong\Scripts\csCollision.cs" />
+    <Compile Include="Assets\KimDoHyeong\Scripts\csMoveCube.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\readme_Simple_Particle_Ribbon.txt" />
+    <None Include="Assets\KimDoHyeong\Res\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\James\06.Res\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
+    <None Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Shaders\Particle Alpha Blend HDR.shader" />
     <None Include="Assets\James\06.Res\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
     <None Include="Assets\James\06.Res\EffectExamples\Magic Effects\Shaders\Ice.shader" />
     <None Include="Assets\James\06.Res\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
