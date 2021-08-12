@@ -66,9 +66,13 @@
     <Compile Include="Assets\KimDoHyeong\Scripts\csBullet.cs" />
     <Compile Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Scripts\rotation.cs" />
     <Compile Include="Assets\James\02.Scripts\csKinematicCheck.cs" />
+    <Compile Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Scripts\PDS_GameController.cs" />
+    <Compile Include="Assets\HongDaYeon\02.Scripts\csCapsuleMove.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\HongDaYeon\02.Scripts\csCollisionCheck.cs" />
     <Compile Include="Assets\James\02.Scripts\csTriggerCheck.cs" />
+    <Compile Include="Assets\HongDaYeon\02.Scripts\csParticleEffect.cs" />
     <Compile Include="Assets\James\02.Scripts\csRaycast.cs" />
     <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\KimDoHyeong\Scripts\csTrigger.cs" />
@@ -79,21 +83,51 @@
     <Compile Include="Assets\KimDoHyeong\Scripts\csCameraMove.cs" />
     <Compile Include="Assets\James\02.Scripts\csLaser.cs" />
     <Compile Include="Assets\James\06.Res\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+    <Compile Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Scripts\ScrollingUVs_PDS.cs" />
     <Compile Include="Assets\KimDoHyeong\Scripts\csRacast.cs" />
     <Compile Include="Assets\KimDoHyeong\Scripts\csCollision.cs" />
+    <Compile Include="Assets\HongDaYeon\02.Scripts\csMainCamera.cs" />
     <Compile Include="Assets\KimDoHyeong\Scripts\csMoveCube.cs" />
+    <Compile Include="Assets\HongDaYeon\02.Scripts\csRaycastBullet.cs" />
+    <Compile Include="Assets\HongDaYeon\02.Scripts\csShotBullet.cs" />
+    <Compile Include="Assets\HongDaYeon\02.Scripts\csBullet1.cs" />
+    <Compile Include="Assets\HongDaYeon\02.Scripts\csWallCollision.cs" />
+    <Compile Include="Assets\HongDaYeon\02.Scripts\csWallTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_softrim.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_softrim.shader" />
     <None Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\readme_Simple_Particle_Ribbon.txt" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit.shader" />
     <None Include="Assets\KimDoHyeong\Res\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\James\06.Res\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Particle_Softrim_Dissolve_alpha.shader" />
     <None Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Shaders\Particle Alpha Blend HDR.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_Opacity_softrim.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_add.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_Opacity_softrim.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_add_stretch.shader" />
     <None Include="Assets\James\06.Res\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
     <None Include="Assets\James\06.Res\EffectExamples\Magic Effects\Shaders\Ice.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive.shader" />
     <None Include="Assets\James\06.Res\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
     <None Include="Assets\James\06.Res\StarterAssets\license.txt" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_Opacity.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_softrim.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_Opacity_softrim.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_alpha.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\ReadMe.txt" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_softrim.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_Opacity.shader" />
     <None Include="Assets\James\06.Res\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_Opacity.shader" />
     <None Include="Assets\James\06.Res\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_Opacity_softrim.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Particle_Softrim_Dissolve_additive.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_alpha_stretch.shader" />
+    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_Opacity.shader" />
     <None Include="Assets\James\06.Res\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
   </ItemGroup>
   <ItemGroup>
