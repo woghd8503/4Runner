@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class csCollisionCheck : MonoBehaviour
 {
+
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log("OnCollisionEnter");

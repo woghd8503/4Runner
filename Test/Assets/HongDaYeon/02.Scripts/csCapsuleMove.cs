@@ -22,8 +22,8 @@ public class csCapsuleMove : MonoBehaviour
         j = j * speed * Time.deltaTime;
 
         //πÊ«‚
-        transform.Translate(Vector3.forward * h);
-        transform.Translate(Vector3.right * v);
+        transform.Translate(Vector3.right * h);
+        transform.Translate(Vector3.forward * v);
         transform.Translate(Vector3.up * j);
 
     }
