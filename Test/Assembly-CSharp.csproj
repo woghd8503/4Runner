@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2020_3_13;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;UNITY_POST_PROCESSING_STACK_V2;STARTER_ASSETS_PACKAGES_CHECKED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2020_3_13;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_POST_PROCESSING_STACK_V2;STARTER_ASSETS_PACKAGES_CHECKED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -49,86 +49,96 @@
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.11</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2020.3.13f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Scripts\randomParticleRotation.cs" />
-    <Compile Include="Assets\James\02.Scripts\csColiisionCheck.cs" />
-    <Compile Include="Assets\csFireCube.cs" />
-    <Compile Include="Assets\Test.cs" />
-    <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
-    <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
-    <Compile Include="Assets\rotate.cs" />
-    <Compile Include="Assets\James\02.Scripts\csInstantiatePaticle.cs" />
-    <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
-    <Compile Include="Assets\James\06.Res\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\KimDoHyeong\Scripts\csBullet.cs" />
-    <Compile Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Scripts\rotation.cs" />
-    <Compile Include="Assets\James\02.Scripts\csKinematicCheck.cs" />
-    <Compile Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Scripts\PDS_GameController.cs" />
-    <Compile Include="Assets\HongDaYeon\02.Scripts\csCapsuleMove.cs" />
-    <Compile Include="Assets\James\06.Res\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
-    <Compile Include="Assets\James\06.Res\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\HongDaYeon\02.Scripts\csCollisionCheck.cs" />
-    <Compile Include="Assets\James\02.Scripts\csTriggerCheck.cs" />
-    <Compile Include="Assets\HongDaYeon\02.Scripts\csParticleEffect.cs" />
-    <Compile Include="Assets\James\02.Scripts\csRaycast.cs" />
-    <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
-    <Compile Include="Assets\KimDoHyeong\Scripts\csTrigger.cs" />
-    <Compile Include="Assets\James\06.Res\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
-    <Compile Include="Assets\KimDoHyeong\Scripts\csParticle.cs" />
-    <Compile Include="Assets\James\06.Res\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
-    <Compile Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Scripts\ReverseNormals.cs" />
-    <Compile Include="Assets\KimDoHyeong\Scripts\csCameraMove.cs" />
-    <Compile Include="Assets\James\02.Scripts\csLaser.cs" />
-    <Compile Include="Assets\James\06.Res\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Scripts\ScrollingUVs_PDS.cs" />
-    <Compile Include="Assets\KimDoHyeong\Scripts\csRacast.cs" />
-    <Compile Include="Assets\KimDoHyeong\Scripts\csCollision.cs" />
-    <Compile Include="Assets\HongDaYeon\02.Scripts\csMainCamera.cs" />
-    <Compile Include="Assets\KimDoHyeong\Scripts\csMoveCube.cs" />
-    <Compile Include="Assets\HongDaYeon\02.Scripts\csRaycastBullet.cs" />
-    <Compile Include="Assets\HongDaYeon\02.Scripts\csShotBullet.cs" />
-    <Compile Include="Assets\HongDaYeon\02.Scripts\csBullet1.cs" />
-    <Compile Include="Assets\HongDaYeon\02.Scripts\csWallCollision.cs" />
-    <Compile Include="Assets\HongDaYeon\02.Scripts\csWallTrigger.cs" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_softrim.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_softrim.shader" />
-    <None Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\readme_Simple_Particle_Ribbon.txt" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit.shader" />
-    <None Include="Assets\KimDoHyeong\Res\Fantasy Skybox FREE\Readme.txt" />
-    <None Include="Assets\James\06.Res\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Particle_Softrim_Dissolve_alpha.shader" />
-    <None Include="Assets\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Shaders\Particle Alpha Blend HDR.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_Opacity_softrim.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_add.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_Opacity_softrim.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_add_stretch.shader" />
-    <None Include="Assets\James\06.Res\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
-    <None Include="Assets\James\06.Res\EffectExamples\Magic Effects\Shaders\Ice.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive.shader" />
-    <None Include="Assets\James\06.Res\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
-    <None Include="Assets\James\06.Res\StarterAssets\license.txt" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_Opacity.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_softrim.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_Opacity_softrim.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_alpha.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\ReadMe.txt" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_softrim.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_Opacity.shader" />
-    <None Include="Assets\James\06.Res\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_Opacity.shader" />
-    <None Include="Assets\James\06.Res\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_Opacity_softrim.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Particle_Softrim_Dissolve_additive.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_alpha_stretch.shader" />
-    <None Include="Assets\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_Opacity.shader" />
-    <None Include="Assets\James\06.Res\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
+    <Compile Include="Assets\Project1\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Scripts\randomParticleRotation.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\02.Scripts\csRaycastBullet.cs" />
+    <Compile Include="Assets\Project1\James\02.Scripts\csColiisionCheck.cs" />
+    <Compile Include="Assets\Project1\csFireCube.cs" />
+    <Compile Include="Assets\Project1\Test.cs" />
+    <Compile Include="Assets\Project1\James\06.Res\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
+    <Compile Include="Assets\Project1\James\06.Res\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
+    <Compile Include="Assets\Project1\rotate.cs" />
+    <Compile Include="Assets\Project1\James\02.Scripts\csInstantiatePaticle.cs" />
+    <Compile Include="Assets\Project1\James\06.Res\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
+    <Compile Include="Assets\Project1\James\06.Res\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\Project1\KimDoHyeong\Scripts\csBullet.cs" />
+    <Compile Include="Assets\Project1\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Scripts\rotation.cs" />
+    <Compile Include="Assets\Project1\DK\02.Scripts\csCollision1.cs" />
+    <Compile Include="Assets\Project1\DK\02.Scripts\csRaycast1.cs" />
+    <Compile Include="Assets\Project1\James\02.Scripts\csKinematicCheck.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Scripts\PDS_GameController.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\02.Scripts\csWallTrigger.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\02.Scripts\csCapsuleMove.cs" />
+    <Compile Include="Assets\Project1\James\06.Res\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Project1\James\06.Res\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\02.Scripts\csCollisionCheck.cs" />
+    <Compile Include="Assets\Project1\James\02.Scripts\csTriggerCheck.cs" />
+    <Compile Include="Assets\Project1\DK\02.Scripts\csMove.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\02.Scripts\csParticleEffect.cs" />
+    <Compile Include="Assets\Project1\DK\02.Scripts\csBullet2.cs" />
+    <Compile Include="Assets\Project1\James\02.Scripts\csRaycast.cs" />
+    <Compile Include="Assets\Project1\James\06.Res\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\Project1\KimDoHyeong\Scripts\csTrigger.cs" />
+    <Compile Include="Assets\Project1\DK\02.Scripts\csParticle1.cs" />
+    <Compile Include="Assets\Project1\James\06.Res\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\Project1\KimDoHyeong\Scripts\csParticle.cs" />
+    <Compile Include="Assets\Project1\James\06.Res\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\02.Scripts\csBullet1.cs" />
+    <Compile Include="Assets\Project1\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Scripts\ReverseNormals.cs" />
+    <Compile Include="Assets\Project1\DK\02.Scripts\csTrigger1.cs" />
+    <Compile Include="Assets\Project1\KimDoHyeong\Scripts\csCameraMove.cs" />
+    <Compile Include="Assets\Project1\James\02.Scripts\csLaser.cs" />
+    <Compile Include="Assets\Project1\James\06.Res\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Scripts\ScrollingUVs_PDS.cs" />
+    <Compile Include="Assets\Project1\DK\02.Scripts\csIsKinematic.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\02.Scripts\csShotBullet.cs" />
+    <Compile Include="Assets\Project1\KimDoHyeong\Scripts\csRacast.cs" />
+    <Compile Include="Assets\Project1\KimDoHyeong\Scripts\csCollision.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\02.Scripts\csWallCollision.cs" />
+    <Compile Include="Assets\Project1\HongDaYeon\02.Scripts\csMainCamera.cs" />
+    <Compile Include="Assets\Project1\KimDoHyeong\Scripts\csMoveCube.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_softrim.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_softrim.shader" />
+    <None Include="Assets\Project1\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\readme_Simple_Particle_Ribbon.txt" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit.shader" />
+    <None Include="Assets\Project1\KimDoHyeong\Res\Fantasy Skybox FREE\Readme.txt" />
+    <None Include="Assets\Project1\James\06.Res\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Particle_Softrim_Dissolve_alpha.shader" />
+    <None Include="Assets\Project1\KimDoHyeong\Res\Particle Ribbon by Moonflower Carnivore\Shaders\Particle Alpha Blend HDR.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_Opacity_softrim.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_add.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_Opacity_softrim.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_add_stretch.shader" />
+    <None Include="Assets\Project1\James\06.Res\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
+    <None Include="Assets\Project1\James\06.Res\EffectExamples\Magic Effects\Shaders\Ice.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive.shader" />
+    <None Include="Assets\Project1\James\06.Res\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
+    <None Include="Assets\Project1\James\06.Res\StarterAssets\license.txt" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_Opacity.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_softrim.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_Opacity_softrim.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_alpha.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\ReadMe.txt" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_softrim.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_Opacity.shader" />
+    <None Include="Assets\Project1\James\06.Res\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_Opacity.shader" />
+    <None Include="Assets\Project1\James\06.Res\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_Opacity_softrim.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Particle_Softrim_Dissolve_additive.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_alpha_stretch.shader" />
+    <None Include="Assets\Project1\HongDaYeon\06.Res\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_Opacity.shader" />
+    <None Include="Assets\Project1\James\06.Res\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -157,12 +167,6 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
@@ -316,9 +320,6 @@
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
